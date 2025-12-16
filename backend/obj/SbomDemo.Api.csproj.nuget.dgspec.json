@@ -53,19 +53,19 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.38, )"
+              "version": "[2.0.123, )"
             },
             "FluentValidation": {
               "target": "Package",
-              "version": "[11.10.0, )"
+              "version": "[12.1.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.4.0, )"
+              "version": "[8.6.5, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -73,7 +73,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[10.0.1, )"
             },
             "System.Text.Json": {
               "target": "Package",
