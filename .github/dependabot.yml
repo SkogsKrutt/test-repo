@@ -10,4 +10,16 @@ updates:
     schedule:
       interval: "weekly"
       day: "tuesday"
-      time: "12:59"
+      time: "14:20"
+    groups:
+      microsoft:
+        patterns:
+          - "Microsoft.*"
+          - "System.*"        # optional, add/remove depending on what you consider MS-owned
+      others:
+        patterns:
+          - "*"               # everything else
+        exclude-patterns:
+          - "Microsoft.*"
+          - "System.*"
+          - "Duende.*"
