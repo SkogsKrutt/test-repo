@@ -51,13 +51,29 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.123, )"
+              "version": "[2.1.66, )"
             },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -67,6 +83,10 @@
               "target": "Package",
               "version": "[8.6.5, )"
             },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -75,9 +95,13 @@
               "target": "Package",
               "version": "[10.0.1, )"
             },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
